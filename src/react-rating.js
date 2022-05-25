@@ -1,2 +1,2 @@
 import RatingAPILayer from './RatingAPILayer';
-module.exports = RatingAPILayer;
+export default RatingAPILayer;
