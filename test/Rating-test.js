@@ -62,7 +62,6 @@ describe('Rating', function () {
       rating = ReactTestRenderer.create(
         <RatingAPILayer readonly={true} />
       );
-      const symbols = rating.root.findAllByType(RatingSymbol)
     });
 
     it('should have all symbols readonly', function () {
